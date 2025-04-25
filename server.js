@@ -123,7 +123,7 @@ app.post("/api/v1/auth/sign-in", (req, res) => {
 });
 
 app.post("/api/v1/getUser", (req, res) => {
-    const { token } = req;
+    const { token } = req.body;
     if (token === "authUser") {
         const users = readData(USERS_FILE);
         res.status(200).json({
