@@ -122,7 +122,7 @@ app.post("/api/v1/auth/sign-in", (req, res) => {
     });
 });
 
-app.get("/api/v1/getUser", (req, res) => {
+app.post("/api/v1/getUser", (req, res) => {
     const { token } = req;
     if (token === "authUser") {
         const users = readData(USERS_FILE);
