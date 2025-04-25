@@ -1,0 +1,74 @@
+[
+    {
+      "locationAddress": "Alla Tarasova Street 5, Kyiv 01001",
+      "locationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/9b903ebf-2b18-4946-bc58-045d86a2632e.jpg",
+      "locationName": "Kyiv Hayatt Hotel"
+    },
+    {
+      "locationAddress": "Alexanderplatz U-Bahn Station, Berlin 10178",
+      "locationId": "12d903ef-9d13-4098-a23e-04acc63d3218",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/12d903ef-9d13-4098-a23e-04acc63d3218.jpg",
+      "locationName": "Berlin Alexanderplatz"
+    },
+    {
+      "locationAddress": "Champ de Mars, 75007 Paris",
+      "locationId": "3c92fbae-8c67-432f-88b7-f31516093430",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/3c92fbae-8c67-432f-88b7-f31516093430.jpg",
+      "locationName": "Eiffel Tower Parking"
+    },
+    {
+      "locationAddress": "Via del Corso 261, Rome 00186",
+      "locationId": "4fa103fd-c2f8-4690-b1e4-6bc906cb19ce",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/4fa103fd-c2f8-4690-b1e4-6bc906cb19ce.jpg",
+      "locationName": "Rome City Center Parking"
+    },
+    {
+      "locationAddress": "Hollywood Blvd 6801, Los Angeles 90028",
+      "locationId": "c1b03bd6-cf8a-48b6-ae3a-d1fe7877e6fe",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/c1b03bd6-cf8a-48b6-ae3a-d1fe7877e6fe.jpg",
+      "locationName": "Hollywood Walk of Fame"
+    },
+    {
+      "locationAddress": "Front St W, Toronto ON M5V 2T6",
+      "locationId": "5d6cf752-fd45-4866-87b8-06394c23f27b",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/5d6cf752-fd45-4866-87b8-06394c23f27b.jpg",
+      "locationName": "Toronto City Center"
+    },
+    {
+      "locationAddress": "221B Baker Street, London NW1 6XE",
+      "locationId": "1d63cf9b-b27f-40e9-9e75-012d6c567a26",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/1d63cf9b-b27f-40e9-9e75-012d6c567a26.jpg",
+      "locationName": "London Baker Street"
+    },
+    {
+      "locationAddress": "1 Martin Place, Sydney NSW 2000",
+      "locationId": "b7dfd82f-52d7-4d59-87fc-234c5b53f642",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/b7dfd82f-52d7-4d59-87fc-234c5b53f642.jpg",
+      "locationName": "Sydney Martin Place"
+    },
+    {
+      "locationAddress": "Chhatrapati Shivaji Maharaj Terminus, Mumbai 400001",
+      "locationId": "f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503.jpg",
+      "locationName": "Mumbai CST Terminal"
+    },
+    {
+      "locationAddress": "Plaça de Catalunya 1, Barcelona 08002",
+      "locationId": "cfc3016d-32a9-47d7-8127-e52c94bd9f62",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/cfc3016d-32a9-47d7-8127-e52c94bd9f62.jpg",
+      "locationName": "Barcelona City Center"
+    },
+    {
+      "locationAddress": "Statue of Liberty Parking, New York NY 10004",
+      "locationId": "d1e82c47-a7f3-490a-b758-f84b93df25a6",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/d1e82c47-a7f3-490a-b758-f84b93df25a6.jpg",
+      "locationName": "New York Liberty Parking"
+    },
+    {
+      "locationAddress": "Burj Khalifa, Dubai 82968",
+      "locationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459",
+      "locationImageUrl": "https://application.s3.eu-central-1.amazonaws.com/img/locations/b7d948c2-e61d-4b9e-ab8d-a4fc05de7459.jpg",
+      "locationName": "Dubai Burj Khalifa"
+    }
+  ]

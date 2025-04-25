@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "title": "Years in Business",
+      "numericValue": 15,
+      "description": "We have been delivering outstanding services for 15 years."
+    },
+    {
+      "title": "Satisfied Clients",
+      "numericValue": 500,
+      "description": "We have served over 500 happy clients worldwide."
+    },
+    {
+      "title": "Locations",
+      "numericValue": 20,
+      "description": "Operating in 20 different locations globally."
+    }
+  ]
+}
