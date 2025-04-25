@@ -5,7 +5,7 @@ const path = require("path");
 const { v4: uuidv4 } = require("uuid"); // UUID generation for unique IDs
 const { forEach } = require("lodash");
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 3000;
 const BASE_PATH = "./data"; // Directory for storing JSON files
 
 app.use(cors());
