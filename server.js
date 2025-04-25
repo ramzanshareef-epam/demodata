@@ -3,7 +3,6 @@ const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
 const { v4: uuidv4 } = require("uuid"); // UUID generation for unique IDs
-const { forEach } = require("lodash");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const BASE_PATH = "./data"; // Directory for storing JSON files
@@ -34,6 +33,7 @@ const CARS_FILE = "cars.json"; // Stores cars
 const FEEDBACKS_FILE = "feedbacks.json"; // Stores feedbacks
 const LOCATIONS_FILE = "locations.json"; // Stores locations
 const REPORTS_FILE = "reports.json"; // Stores reports
+
 const ABOUT_US_FILE = [
     {
         "title": "Years in Business",
@@ -51,6 +51,7 @@ const ABOUT_US_FILE = [
         "description": "Operating in 20 different locations globally."
     }
 ];
+
 const FAQ = [
     {
         "question": "What documents do I need to rent a car?",
@@ -67,8 +68,8 @@ const FAQ = [
     {
         "question": "Are there any additional charges apart from the rental fee?",
         "answer": "Yes, additional charges such as insurance, fuel charges, toll fees, and young driver or additional driver fees may apply. All charges will be detailed in the rental agreement."
-    }]
-// -----------------------------------
+    }];
+
 // Auth - US-1: Sign Up
 // -----------------------------------
 app.post("/api/v1/auth/sign-up", (req, res) => {
@@ -96,7 +97,7 @@ app.post("/api/v1/auth/sign-up", (req, res) => {
     users.push(newUser);
     writeData(USERS_FILE, users);
 
-    res.status(201).json({ message: "User successfully created" });
+    return res.status(201).json({ message: "User successfully created" });
 });
 
 // -----------------------------------
@@ -113,7 +114,7 @@ app.post("/api/v1/auth/sign-in", (req, res) => {
     }
 
     const token = `token-${user.id}`;
-    res.status(200).json({
+    return res.status(200).json({
         idToken: token,
         role: user.role,
         userId: user.id,
@@ -126,11 +127,11 @@ app.post("/api/v1/getUser", (req, res) => {
     const { token } = req.body;
     if (token === "authUser") {
         const users = readData(USERS_FILE);
-        res.status(200).json({
+        return res.status(200).json({
             users: users
         });
     }
-    res.status(400).json({
+    return res.status(400).json({
         "message": "Not Authenticated"
     });
 });
@@ -138,30 +139,30 @@ app.post("/api/v1/getUser", (req, res) => {
 app.get("/api/v1/home/about-us", (req, res) => {
     try {
         const aboutData = ABOUT_US_FILE; // Load JSON data
-        res.status(200).json({ "content": aboutData });
+        return res.status(200).json({ "content": aboutData });
     } catch (error) {
         console.error("Error reading about.json file:", error.message);
-        res.status(500).json({ error: "Could not load About Us data." });
+        return res.status(500).json({ error: "Could not load About Us data." });
     }
 });
 
 app.get("/api/v1/home/faq", (req, res) => {
     try {
         const aboutData = FAQ; // Load JSON data
-        res.status(200).json({ "content": aboutData });
+        return res.status(200).json({ "content": aboutData });
     } catch (error) {
         console.error("Error reading about.json file:", error.message);
-        res.status(500).json({ error: "Could not load About Us data." });
+        return res.status(500).json({ error: "Could not load About Us data." });
     }
 });
 
 app.get("/api/v1/home/locations", (req, res) => {
     try {
         const aboutData = readData(LOCATIONS_FILE); // Load JSON data
-        res.status(200).json({ "content": aboutData });
+        return res.status(200).json({ "content": aboutData });
     } catch (error) {
         console.error("Error reading about.json file:", error.message);
-        res.status(500).json({ error: "Could not load About Us data." });
+        return res.status(500).json({ error: "Could not load About Us data." });
     }
 });
 
@@ -230,7 +231,7 @@ app.get("/api/v1/cars", (req, res) => {
     }));
 
     // Send response with filtered and paginated data
-    res.status(200).json({
+    return res.status(200).json({
         content: resultCars,
         currentPage: parseInt(page), // Current page number
         totalElements,
@@ -263,7 +264,7 @@ app.post("/api/v1/bookings", (req, res) => {
     bookings.push(booking);
     writeData(BOOKINGS_FILE, bookings);
 
-    res.status(200).json({
+    return res.status(200).json({
         message: `Car booked successfully. Booking ID: ${booking.id}`,
     });
 });
@@ -276,7 +277,7 @@ app.get("/api/v1/cars/:carId", (req, res) => {
     const cars = readData(CARS_FILE);
 
     const Car = cars.filter((c) => c.carId === carId)[0];
-    res.status(200).json({
+    return res.status(200).json({
         carId: Car.carId,
         carRating: Car.carRating,
         climateControlOption: Car.climateControl,
@@ -310,7 +311,7 @@ app.get("/api/v1/bookings/:userId", (req, res) => {
             orderDetails: b.bookingId + " " + b.pickupDateTime.slice(0, 10),
         }
     });
-    res.status(200).json({
+    return res.status(200).json({
         content:
             response
 
@@ -339,7 +340,7 @@ app.post("/api/v1/feedbacks", (req, res) => {
     feedbacks.push(newFeedback);
     writeData(FEEDBACKS_FILE, feedbacks);
 
-    res.status(201).json({
+    return res.status(201).json({
         feedbackId: newFeedback.id,
         systemMessage: "Feedback has been successfully created",
     });
@@ -351,22 +352,11 @@ app.post("/api/v1/feedbacks", (req, res) => {
 app.get("/api/v1/feedbacks/recent", (req, res) => {
     const feedbacks = readData(FEEDBACKS_FILE);
 
-    res.status(200).json({
-        content: feedbacks.slice(-5), // Return the last 5 feedbacks
+    return res.status(200).json({
+        content: feedbacks.slice(-5),
     });
 });
 
-// -----------------------------------
-// Server setup
-// -----------------------------------
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
-
-
-//For debugging purpose
-// const data = readData(LOCATIONS_FILE);
-// for (let i of readData(BOOKINGS_FILE)) {
-//   console.log(data.find(u=>i.pickupLocationId ===u.locationId).locationName)
-//   // console.log(i.pickupLocationId)
-// }
