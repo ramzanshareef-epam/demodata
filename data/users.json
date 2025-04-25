@@ -1,252 +1,162 @@
 [
-  {
-    "id": "1906b7f4-a871-4874-94e4-17f2f48ef90f",
-    "email": "amiya_maity@example.com",
-    "firstName": "Amiya",
-    "lastName": "Maity",
-    "password": "abcd1234",
-    "role": "Client"
-  },
-  {
-    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "email": "john_smith@example.com",
-    "firstName": "John",
-    "lastName": "Smith",
-    "password": "&Q5m#9bX^d8!FwZ2",
-    "role": "Client"
-  },
-  {
-    "id": "7e2068f9-13c4-48a4-82fa-1538bc9ebcc8",
-    "email": "rachael_green@example.com",
-    "firstName": "Rachael",
-    "lastName": "Green",
-    "password": "password123",
-    "role": "Client"
-  },
-  {
-    "id": "7324c87f-6dcb-4329-af47-8398ef9bd765",
-    "email": "george_brown@example.com",
-    "firstName": "George",
-    "lastName": "Brown",
-    "password": "G!o7&Hg3712xM%",
-    "role": "Admin"
-  },
-  {
-    "id": "0fa804c2-41e3-43ed-ae7d-8e09b1f3ac5e",
-    "email": "emma_watson@example.com",
-    "firstName": "Emma",
-    "lastName": "Watson",
-    "password": "EmW2023@pass",
-    "role": "Client"
-  },
-  {
-    "id": "41132312-6e84-49a6-904f-ff51bc5c8ec3",
-    "email": "liam_charles@example.com",
-    "firstName": "Liam",
-    "lastName": "Charles",
-    "password": "Liam$456!",
-    "role": "Client"
-  },
-  {
-    "id": "8471b091-28c6-42e6-b902-5ff63eb96b0a",
-    "email": "hannah_davis@example.com",
-    "firstName": "Hannah",
-    "lastName": "Davis",
-    "password": "hdSuperSecure99",
-    "role": "Client"
-  },
-  {
-    "id": "c01abcd1-de34-4c21-9afe-1258fd7e3145",
-    "email": "robert_williams@example.com",
-    "firstName": "Robert",
-    "lastName": "Williams",
-    "password": "password!112233",
-    "role": "Admin"
-  },
-  {
-    "id": "4d90e23a-1e67-4cd9-a115-abcdef12345",
-    "email": "sophia_jones@example.com",
-    "firstName": "Sophia",
-    "lastName": "Jones",
-    "password": "SophiaSecure999",
-    "role": "Client"
-  },
-  {
-    "id": "5df2f319-df8b-421c-a2ef-1298123c431f",
-    "email": "daniel_miller@example.com",
-    "firstName": "Daniel",
-    "lastName": "Miller",
-    "password": "D$3nmL8x#Y%",
-    "role": "Client"
-  },
-  {
-    "id": "1c62adf4-97be-472a-8ae4-12a504d3198e",
-    "email": "olivia_thompson@example.com",
-    "firstName": "Olivia",
-    "lastName": "Thompson",
-    "password": "OliviaPass555",
-    "role": "Client"
-  },
-  {
-    "id": "771c6b95-0f5e-4744-ad04-4cb9cf84b6a3",
-    "email": "charlie_adams@example.com",
-    "firstName": "Charlie",
-    "lastName": "Adams",
-    "password": "@Charlie2023!",
-    "role": "Admin"
-  },
-  {
-    "id": "8332adf4-871c-494e-8dfe-b123f05d903b",
-    "email": "mia_white@example.com",
-    "firstName": "Mia",
-    "lastName": "White",
-    "password": "MWhite_Secure!",
-    "role": "Client"
-  },
-  {
-    "id": "9932b6f1-450c-48e4-a91b-cf839b42ed7a",
-    "email": "lucas_clark@example.com",
-    "firstName": "Lucas",
-    "lastName": "Clark",
-    "password": "Lclark2023!#",
-    "role": "Client"
-  },
-  {
-    "id": "a732fd91-62ce-498d-869f-02843f29d20b",
-    "email": "ava_wilson@example.com",
-    "firstName": "Ava",
-    "lastName": "Wilson",
-    "password": "AvaW@Secure&",
-    "role": "Client"
-  },
-  {
-    "id": "7218fd32-bc64-4cae-b3d1-cd0252a3126f",
-    "email": "mark_taylor@example.com",
-    "firstName": "Mark",
-    "lastName": "Taylor",
-    "password": "@Taylor$Admin",
-    "role": "Admin"
-  },
-  {
-    "id": "0338421c-990a-4a73-ae32-bfc52a24d10f",
-    "email": "lily_hall@example.com",
-    "firstName": "Lily",
-    "lastName": "Hall",
-    "password": "$Lily567!",
-    "role": "Client"
-  },
-  {
-    "id": "1986bf33-867b-4a59-80d1-ed684fa69231",
-    "email": "ethan_evans@example.com",
-    "firstName": "Ethan",
-    "lastName": "Evans",
-    "password": "E&E@Secure!",
-    "role": "Client"
-  },
-  {
-    "id": "8c321235-ba74-4ca4-b113-b09d23eab1cf",
-    "email": "isabella_wright@example.com",
-    "firstName": "Isabella",
-    "lastName": "Wright",
-    "password": "Izzy123!Secure",
-    "role": "Client"
-  },
-  {
-    "id": "109f82bc-a930-40eb-8c5e-ad84a50c4593",
-    "email": "grace_edwards@example.com",
-    "firstName": "Grace",
-    "lastName": "Edwards",
-    "password": "GraceSecure&22",
-    "role": "Client"
-  },
-  {
-    "id": "c341d6b2-b377-4fa7-8e6e-2a42f93d601f",
-    "carId": "823ef31c-8763-41f2-9d7a-e3e0e1260b04",
-    "clientId": "1906b7f4-a871-4874-94e4-17f2f48ef90f",
-    "pickupDateTime": "2024-06-08 10:00",
-    "dropOffDateTime": "2024-06-10 10:00",
-    "pickupLocationId": "4fa103fd-c2f8-4690-b1e4-6bc906cb19ce",
-    "dropOffLocationId": "4fa103fd-c2f8-4690-b1e4-6bc906cb19ce"
-  },
-  {
-    "id": "d334af76-9802-489f-abcd-4229e6c4e144",
-    "carId": "7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5",
-    "clientId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "pickupDateTime": "2024-07-25 11:00",
-    "dropOffDateTime": "2024-07-29 14:00",
-    "pickupLocationId": "3c92fbae-8c67-432f-88b7-f31516093430",
-    "dropOffLocationId": "3c92fbae-8c67-432f-88b7-f31516093430"
-  },
-  {
-    "id": "bdb9321c-5b29-4ced-b327-58fea88c1321",
-    "carId": "92c87432-3383-4328-85f8-7d20ba8715ec",
-    "clientId": "7e2068f9-13c4-48a4-82fa-1538bc9ebcc8",
-    "pickupDateTime": "2024-08-14 09:00",
-    "dropOffDateTime": "2024-08-20 16:00",
-    "pickupLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
-    "dropOffLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e"
-  },
-  {
-    "id": "ab12f892-32d4-486e-b824-3b98e2edc913",
-    "carId": "41ae3f24-3c8d-45f9-9172-abc3e48d25ea",
-    "clientId": "7324c87f-6dcb-4329-af47-8398ef9bd765",
-    "pickupDateTime": "2024-09-01 10:00",
-    "dropOffDateTime": "2024-09-04 12:00",
-    "pickupLocationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459",
-    "dropOffLocationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459"
-  },
-  {
-    "id": "4fd2231b-59c6-4f44-a1c8-bd7932c5a323",
-    "carId": "56c4df22-1b8a-428f-87d5-1f94bcc35267",
-    "clientId": "0fa804c2-41e3-43ed-ae7d-8e09b1f3ac5e",
-    "pickupDateTime": "2024-06-12 09:00",
-    "dropOffDateTime": "2024-06-15 18:00",
-    "pickupLocationId": "f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503",
-    "dropOffLocationId": "f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503"
-  },
-  {
-    "id": "e38dafcc-98cb-411e-b6f7-713e2277df8d",
-    "carId": "97c4ef32-4b83-4823-95b9-8d30ba8715ad",
-    "clientId": "41132312-6e84-49a6-904f-ff51bc5c8ec3",
-    "pickupDateTime": "2024-07-28 12:00",
-    "dropOffDateTime": "2024-08-01 11:00",
-    "pickupLocationId": "1d63cf9b-b27f-40e9-9e75-012d6c567a26",
-    "dropOffLocationId": "1d63cf9b-b27f-40e9-9e75-012d6c567a26"
-  },
-  {
-    "id": "0fa1be23-2a7d-4c31-9231-900db5a29a77",
-    "carId": "73c48f22-3afb-4d51-bb10-b897c483f593",
-    "clientId": "8471b091-28c6-42e6-b902-5ff63eb96b0a",
-    "pickupDateTime": "2024-09-04 10:00",
-    "dropOffDateTime": "2024-09-06 14:00",
-    "pickupLocationId": "d1e82c47-a7f3-490a-b758-f84b93df25a6",
-    "dropOffLocationId": "d1e82c47-a7f3-490a-b758-f84b93df25a6"
-  },
-  {
-    "id": "e90cc1de-cb7d-4cd2-81c8-4e44f5b829af",
-    "carId": "89a4e234-2ef8-4a2f-930e-5c94edf9bc54",
-    "clientId": "c01abcd1-de34-4c21-9afe-1258fd7e3145",
-    "pickupDateTime": "2024-08-05 08:00",
-    "dropOffDateTime": "2024-08-08 12:00",
-    "pickupLocationId": "cfc3016d-32a9-47d7-8127-e52c94bd9f62",
-    "dropOffLocationId": "cfc3016d-32a9-47d7-8127-e52c94bd9f62"
-  },
-  {
-    "id": "f98372de-9ec5-42c2-bc92-891d32c68945",
-    "carId": "65e4dffe-3b77-4a51-8c5c-0dc7df3358f3",
-    "clientId": "4d90e23a-1e67-4cd9-a115-abcdef12345",
-    "pickupDateTime": "2024-07-01 12:00",
-    "dropOffDateTime": "2024-07-03 18:00",
-    "pickupLocationId": "b7dfd82f-52d7-4d59-87fc-234c5b53f642",
-    "dropOffLocationId": "b7dfd82f-52d7-4d59-87fc-234c5b53f642"
-  },
-  {
-    "id": "b7fc21ea-3b6c-4bac-af92-ea1dcedb2934",
-    "carId": "7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5",
-    "clientId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "pickupDateTime": "2024-10-20 12:00",
-    "dropOffDateTime": "2024-10-25 14:00",
-    "pickupLocationId": "3c92fbae-8c67-432f-88b7-f31516093430",
-    "dropOffLocationId": "3c92fbae-8c67-432f-88b7-f31516093430"
-  }
+    {
+        "id": "1906b7f4-a871-4874-94e4-17f2f48ef90f",
+        "email": "amiya_maity@example.com",
+        "firstName": "Amiya",
+        "lastName": "Maity",
+        "password": "abcd1234",
+        "role": "Client"
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "email": "john_smith@example.com",
+        "firstName": "John",
+        "lastName": "Smith",
+        "password": "&Q5m#9bX^d8!FwZ2",
+        "role": "Client"
+    },
+    {
+        "id": "7e2068f9-13c4-48a4-82fa-1538bc9ebcc8",
+        "email": "rachael_green@example.com",
+        "firstName": "Rachael",
+        "lastName": "Green",
+        "password": "password123",
+        "role": "Client"
+    },
+    {
+        "id": "7324c87f-6dcb-4329-af47-8398ef9bd765",
+        "email": "george_brown@example.com",
+        "firstName": "George",
+        "lastName": "Brown",
+        "password": "G!o7&Hg3712xM%",
+        "role": "Admin"
+    },
+    {
+        "id": "0fa804c2-41e3-43ed-ae7d-8e09b1f3ac5e",
+        "email": "emma_watson@example.com",
+        "firstName": "Emma",
+        "lastName": "Watson",
+        "password": "EmW2023@pass",
+        "role": "Client"
+    },
+    {
+        "id": "41132312-6e84-49a6-904f-ff51bc5c8ec3",
+        "email": "liam_charles@example.com",
+        "firstName": "Liam",
+        "lastName": "Charles",
+        "password": "Liam$456!",
+        "role": "Client"
+    },
+    {
+        "id": "8471b091-28c6-42e6-b902-5ff63eb96b0a",
+        "email": "hannah_davis@example.com",
+        "firstName": "Hannah",
+        "lastName": "Davis",
+        "password": "hdSuperSecure99",
+        "role": "Client"
+    },
+    {
+        "id": "c01abcd1-de34-4c21-9afe-1258fd7e3145",
+        "email": "robert_williams@example.com",
+        "firstName": "Robert",
+        "lastName": "Williams",
+        "password": "password!112233",
+        "role": "Admin"
+    },
+    {
+        "id": "4d90e23a-1e67-4cd9-a115-abcdef12345",
+        "email": "sophia_jones@example.com",
+        "firstName": "Sophia",
+        "lastName": "Jones",
+        "password": "SophiaSecure999",
+        "role": "Client"
+    },
+    {
+        "id": "5df2f319-df8b-421c-a2ef-1298123c431f",
+        "email": "daniel_miller@example.com",
+        "firstName": "Daniel",
+        "lastName": "Miller",
+        "password": "D$3nmL8x#Y%",
+        "role": "Client"
+    },
+    {
+        "id": "1c62adf4-97be-472a-8ae4-12a504d3198e",
+        "email": "olivia_thompson@example.com",
+        "firstName": "Olivia",
+        "lastName": "Thompson",
+        "password": "OliviaPass555",
+        "role": "Client"
+    },
+    {
+        "id": "771c6b95-0f5e-4744-ad04-4cb9cf84b6a3",
+        "email": "charlie_adams@example.com",
+        "firstName": "Charlie",
+        "lastName": "Adams",
+        "password": "@Charlie2023!",
+        "role": "Admin"
+    },
+    {
+        "id": "8332adf4-871c-494e-8dfe-b123f05d903b",
+        "email": "mia_white@example.com",
+        "firstName": "Mia",
+        "lastName": "White",
+        "password": "MWhite_Secure!",
+        "role": "Client"
+    },
+    {
+        "id": "9932b6f1-450c-48e4-a91b-cf839b42ed7a",
+        "email": "lucas_clark@example.com",
+        "firstName": "Lucas",
+        "lastName": "Clark",
+        "password": "Lclark2023!#",
+        "role": "Client"
+    },
+    {
+        "id": "a732fd91-62ce-498d-869f-02843f29d20b",
+        "email": "ava_wilson@example.com",
+        "firstName": "Ava",
+        "lastName": "Wilson",
+        "password": "AvaW@Secure&",
+        "role": "Client"
+    },
+    {
+        "id": "7218fd32-bc64-4cae-b3d1-cd0252a3126f",
+        "email": "mark_taylor@example.com",
+        "firstName": "Mark",
+        "lastName": "Taylor",
+        "password": "@Taylor$Admin",
+        "role": "Admin"
+    },
+    {
+        "id": "0338421c-990a-4a73-ae32-bfc52a24d10f",
+        "email": "lily_hall@example.com",
+        "firstName": "Lily",
+        "lastName": "Hall",
+        "password": "$Lily567!",
+        "role": "Client"
+    },
+    {
+        "id": "1986bf33-867b-4a59-80d1-ed684fa69231",
+        "email": "ethan_evans@example.com",
+        "firstName": "Ethan",
+        "lastName": "Evans",
+        "password": "E&E@Secure!",
+        "role": "Client"
+    },
+    {
+        "id": "8c321235-ba74-4ca4-b113-b09d23eab1cf",
+        "email": "isabella_wright@example.com",
+        "firstName": "Isabella",
+        "lastName": "Wright",
+        "password": "Izzy123!Secure",
+        "role": "Client"
+    },
+    {
+        "id": "109f82bc-a930-40eb-8c5e-ad84a50c4593",
+        "email": "grace_edwards@example.com",
+        "firstName": "Grace",
+        "lastName": "Edwards",
+        "password": "GraceSecure&22",
+        "role": "Client"
+    }
 ]
