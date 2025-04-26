@@ -264,16 +264,11 @@ app.get("/api/v1/cars", (req, res) => {
 app.post("/api/v1/cars/popular", (req, res) => {
     try {
         const cars = readData(CARS_FILE); // Load cars data from JSON file
-        const { category, page = 1, size = 10 } = req.body; // Extract filters and pagination parameters
+        const { page = 1, size = 10 } = req.body; // Extract filters and pagination parameters
 
-        // Filter cars by category if provided
-        const filteredCars = cars;
-        if (category) {
-            filteredCars = cars.filter((c) => c.category === category);
-        }
 
         // Sort cars by rating in descending order
-        const sortedCars = filteredCars.sort((a, b) => b.carRating - a.carRating);
+        const sortedCars = cars.sort((a, b) => b.carRating - a.carRating);
 
         // Pagination logic
         const totalElements = sortedCars.length;
