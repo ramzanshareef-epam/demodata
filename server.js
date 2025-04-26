@@ -258,7 +258,7 @@ app.get("/api/v1/cars/popular", (req, res) => {
     const totalPages = Math.ceil(totalElements / size);
     const startIndex = (page - 1) * size; // Calculate start index
     const paginatedCars = filteredCars.slice(startIndex, startIndex + parseInt(size)); // Paginate results
-
+    console.log(paginatedCars);
     const resultCars = paginatedCars.map((c) => ({
         carId: c.carId,
         carRating: c.carRating,

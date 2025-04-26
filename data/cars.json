@@ -1,457 +1,457 @@
 [
-  {
-    "carId": "92c87432-3383-4328-85f8-7d20ba8715ec",
-    "carRating": "4.5",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/92c87432-3383-4328-85f8-7d20ba8715ec-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/92c87432-3383-4328-85f8-7d20ba8715ec-2.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/92c87432-3383-4328-85f8-7d20ba8715ec-3.jpg"
-    ],
-    "location": "Ukraine, Kyiv",
-    "pickupLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
-    "dropOffLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
-    "model": "Audi A6 Quattro 2023",
-    "pricePerDay": "180",
-    "serviceRating": "4.8",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "PETROL",
-    "engineCapacity": "3.0 Turbo V6",
-    "fuelConsumption": "10.0 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Dual-Zone Climate",
-    "category": "CROSSOVER",
-    "mileageIncluded": "300 km/day",
-    "additionalFeatures": [
-      "Leather seats",
-      "GPS navigation",
-      "Bluetooth",
-      "Backup camera"
-    ],
-    "color": "Black",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-10-29T10:30:00",
-      "dropOffDateTime": "2024-10-30T10:30:00"
+    {
+        "carId": "92c87432-3383-4328-85f8-7d20ba8715ec",
+        "carRating": "4.5",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/92c87432-3383-4328-85f8-7d20ba8715ec-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/92c87432-3383-4328-85f8-7d20ba8715ec-2.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/92c87432-3383-4328-85f8-7d20ba8715ec-3.jpg"
+        ],
+        "location": "Ukraine, Kyiv",
+        "pickupLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
+        "dropOffLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
+        "model": "Audi A6 Quattro 2023",
+        "pricePerDay": "180",
+        "serviceRating": "4.8",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "PETROL",
+        "engineCapacity": "3.0 Turbo V6",
+        "fuelConsumption": "10.0 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Dual-Zone Climate",
+        "category": "CROSSOVER",
+        "mileageIncluded": "300 km/day",
+        "additionalFeatures": [
+            "Leather seats",
+            "GPS navigation",
+            "Bluetooth",
+            "Backup camera"
+        ],
+        "color": "Black",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-10-29T10:30:00",
+            "dropOffDateTime": "2024-10-30T10:30:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-10-28T23:30:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-10-28T23:30:00"
-  },
-  {
-    "carId": "01c87432-3383-4328-85f8-7d20ba871509",
-    "carRating": "4.9",
-    "imageUrl": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/01c87432-3383-4328-85f8-7d20ba871509-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/01c87432-3383-4328-85f8-7d20ba871509-2.jpg"
-    ],
-    "location": "Germany, Berlin",
-    "pickupLocationId": "12d903ef-9d13-4098-a23e-04acc63d3218",
-    "dropOffLocationId": "12d903ef-9d13-4098-a23e-04acc63d3218",
-    "model": "Tesla Model S 2022",
-    "pricePerDay": "250",
-    "serviceRating": "4.9",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "ELECTRIC",
-    "engineCapacity": "Dual Motor AWD",
-    "fuelConsumption": "N/A (Electric)",
-    "passengerCapacity": "5",
-    "climateControl": "Four-Zone Climate",
-    "category": "PREMIUM",
-    "mileageIncluded": "Unlimited",
-    "additionalFeatures": [
-      "Autopilot",
-      "GPS",
-      "Wireless Smartphone Charging"
-    ],
-    "color": "Pearl White",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-12-01T08:00:00",
-      "dropOffDateTime": "2024-12-05T18:00:00"
+    {
+        "carId": "01c87432-3383-4328-85f8-7d20ba871509",
+        "carRating": "4.9",
+        "imageUrl": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/01c87432-3383-4328-85f8-7d20ba871509-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/01c87432-3383-4328-85f8-7d20ba871509-2.jpg"
+        ],
+        "location": "Germany, Berlin",
+        "pickupLocationId": "12d903ef-9d13-4098-a23e-04acc63d3218",
+        "dropOffLocationId": "12d903ef-9d13-4098-a23e-04acc63d3218",
+        "model": "Tesla Model S 2022",
+        "pricePerDay": "250",
+        "serviceRating": "4.9",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "ELECTRIC",
+        "engineCapacity": "Dual Motor AWD",
+        "fuelConsumption": "N/A (Electric)",
+        "passengerCapacity": "5",
+        "climateControl": "Four-Zone Climate",
+        "category": "PREMIUM",
+        "mileageIncluded": "Unlimited",
+        "additionalFeatures": [
+            "Autopilot",
+            "GPS",
+            "Wireless Smartphone Charging"
+        ],
+        "color": "Pearl White",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-12-01T08:00:00",
+            "dropOffDateTime": "2024-12-05T18:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-11-30T21:00:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-11-30T21:00:00"
-  },
-  {
-    "carId": "7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5",
-    "carRating": "4.6",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5-2.jpg"
-    ],
-    "location": "France, Paris",
-    "pickupLocationId": "3c92fbae-8c67-432f-88b7-f31516093430",
-    "dropOffLocationId": "3c92fbae-8c67-432f-88b7-f31516093430",
-    "model": "Mercedes-Benz E-Class 2023",
-    "pricePerDay": "240",
-    "serviceRating": "4.8",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "DIESEL",
-    "engineCapacity": "2.0 Turbo D",
-    "fuelConsumption": "6.3 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Three-Zone Climate",
-    "category": "SEDAN",
-    "mileageIncluded": "250 km/day",
-    "additionalFeatures": [
-      "Heated leather seats",
-      "360-degree camera system",
-      "Adaptive cruise control"
-    ],
-    "color": "Silver",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-11-10T12:00:00",
-      "dropOffDateTime": "2024-11-13T12:00:00"
+    {
+        "carId": "7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5",
+        "carRating": "4.6",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/7b4ef93e-45c5-48c6-9ff7-54101ed7c6f5-2.jpg"
+        ],
+        "location": "France, Paris",
+        "pickupLocationId": "3c92fbae-8c67-432f-88b7-f31516093430",
+        "dropOffLocationId": "3c92fbae-8c67-432f-88b7-f31516093430",
+        "model": "Mercedes-Benz E-Class 2023",
+        "pricePerDay": "240",
+        "serviceRating": "4.8",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "DIESEL",
+        "engineCapacity": "2.0 Turbo D",
+        "fuelConsumption": "6.3 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Three-Zone Climate",
+        "category": "SEDAN",
+        "mileageIncluded": "250 km/day",
+        "additionalFeatures": [
+            "Heated leather seats",
+            "360-degree camera system",
+            "Adaptive cruise control"
+        ],
+        "color": "Silver",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-11-10T12:00:00",
+            "dropOffDateTime": "2024-11-13T12:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-11-09T23:59:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-11-09T23:59:00"
-  },
-  {
-    "carId": "823ef31c-8763-41f2-9d7a-e3e0e1260b04",
-    "carRating": "4.4",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/823ef31c-8763-41f2-9d7a-e3e0e1260b04-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/823ef31c-8763-41f2-9d7a-e3e0e1260b04-2.jpg"
-    ],
-    "location": "Italy, Rome",
-    "pickupLocationId": "4fa103fd-c2f8-4690-b1e4-6bc906cb19ce",
-    "dropOffLocationId": "4fa103fd-c2f8-4690-b1e4-6bc906cb19ce",
-    "model": "Fiat 500X 2022",
-    "pricePerDay": "90",
-    "serviceRating": "4.5",
-    "status": "AVAILABLE",
-    "gearBoxType": "MANUAL",
-    "fuelType": "PETROL",
-    "engineCapacity": "1.4 Turbo",
-    "fuelConsumption": "7.8 L/100km",
-    "passengerCapacity": "4",
-    "climateControl": "Manual",
-    "category": "COMPACT SUV",
-    "mileageIncluded": "200 km/day",
-    "additionalFeatures": [
-      "Apple CarPlay",
-      "Rear-view camera"
-    ],
-    "color": "Red",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-08-20T09:00:00",
-      "dropOffDateTime": "2024-08-25T17:00:00"
+    {
+        "carId": "823ef31c-8763-41f2-9d7a-e3e0e1260b04",
+        "carRating": "4.4",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/823ef31c-8763-41f2-9d7a-e3e0e1260b04-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/823ef31c-8763-41f2-9d7a-e3e0e1260b04-2.jpg"
+        ],
+        "location": "Italy, Rome",
+        "pickupLocationId": "4fa103fd-c2f8-4690-b1e4-6bc906cb19ce",
+        "dropOffLocationId": "4fa103fd-c2f8-4690-b1e4-6bc906cb19ce",
+        "model": "Fiat 500X 2022",
+        "pricePerDay": "90",
+        "serviceRating": "4.5",
+        "status": "AVAILABLE",
+        "gearBoxType": "MANUAL",
+        "fuelType": "PETROL",
+        "engineCapacity": "1.4 Turbo",
+        "fuelConsumption": "7.8 L/100km",
+        "passengerCapacity": "4",
+        "climateControl": "Manual",
+        "category": "COMPACT SUV",
+        "mileageIncluded": "200 km/day",
+        "additionalFeatures": [
+            "Apple CarPlay",
+            "Rear-view camera"
+        ],
+        "color": "Red",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-08-20T09:00:00",
+            "dropOffDateTime": "2024-08-25T17:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-08-19T23:00:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-08-19T23:00:00"
-  },
-  {
-    "carId": "92c87432-3383-4328-85f8-7d20ba8715ec",
-    "carRating": "4.8",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/2f94cf23-7a85-4a63-9814-3fd0b7dbb4c2-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/2f94cf23-7a85-4a63-9814-3fd0b7dbb4c2-2.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/2f94cf23-7a85-4a63-9814-3fd0b7dbb4c2-3.jpg"
-    ],
-    "location": "Japan, Tokyo",
-    "pickupLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
-    "dropOffLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
-    "model": "Toyota Prius 2023",
-    "pricePerDay": "120",
-    "serviceRating": "4.7",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "HYBRID",
-    "engineCapacity": "1.8 Hybrid System",
-    "fuelConsumption": "4.4 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Dual-Zone Climate",
-    "category": "HATCHBACK",
-    "mileageIncluded": "300 km/day",
-    "additionalFeatures": [
-      "Adaptive cruise control",
-      "Lane-keeping assist",
-      "Bluetooth"
-    ],
-    "color": "Green",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-09-15T14:00:00",
-      "dropOffDateTime": "2024-09-20T14:00:00"
+    {
+        "carId": "92c87432-3383-4328-85f8-7d20ba8715ec",
+        "carRating": "4.8",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/2f94cf23-7a85-4a63-9814-3fd0b7dbb4c2-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/2f94cf23-7a85-4a63-9814-3fd0b7dbb4c2-2.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/2f94cf23-7a85-4a63-9814-3fd0b7dbb4c2-3.jpg"
+        ],
+        "location": "Japan, Tokyo",
+        "pickupLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
+        "dropOffLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
+        "model": "Toyota Prius 2023",
+        "pricePerDay": "120",
+        "serviceRating": "4.7",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "HYBRID",
+        "engineCapacity": "1.8 Hybrid System",
+        "fuelConsumption": "4.4 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Dual-Zone Climate",
+        "category": "HATCHBACK",
+        "mileageIncluded": "300 km/day",
+        "additionalFeatures": [
+            "Adaptive cruise control",
+            "Lane-keeping assist",
+            "Bluetooth"
+        ],
+        "color": "Green",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-09-15T14:00:00",
+            "dropOffDateTime": "2024-09-20T14:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-09-14T23:30:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-09-14T23:30:00"
-  },
-  {
-    "carId": "1dfc7baf-fcb7-43d4-9506-df1b7e44f524",
-    "carRating": "4.7",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/1dfc7baf-fcb7-43d4-9506-df1b7e44f524-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/1dfc7baf-fcb7-43d4-9506-df1b7e44f524-2.jpg"
-    ],
-    "location": "USA, Los Angeles",
-    "pickupLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
-    "dropOffLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
-    "model": "Ford Mustang Convertible 2023",
-    "pricePerDay": "220",
-    "serviceRating": "4.9",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "HYBRID",
-    "engineCapacity": "5.0 V8",
-    "fuelConsumption": "13.0 L/100km",
-    "passengerCapacity": "4",
-    "climateControl": "Automatic",
-    "category": "HATCHBACK",
-    "mileageIncluded": "Unlimited",
-    "additionalFeatures": [
-      "Convertible roof",
-      "Premium audio",
-      "Backup camera"
-    ],
-    "color": "Blue",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-07-10T10:00:00",
-      "dropOffDateTime": "2024-07-15T10:00:00"
+    {
+        "carId": "1dfc7baf-fcb7-43d4-9506-df1b7e44f524",
+        "carRating": "4.7",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/1dfc7baf-fcb7-43d4-9506-df1b7e44f524-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/1dfc7baf-fcb7-43d4-9506-df1b7e44f524-2.jpg"
+        ],
+        "location": "USA, Los Angeles",
+        "pickupLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
+        "dropOffLocationId": "841ef2c7-a7f3-4578-b348-604e35db7b43",
+        "model": "Ford Mustang Convertible 2023",
+        "pricePerDay": "220",
+        "serviceRating": "4.9",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "HYBRID",
+        "engineCapacity": "5.0 V8",
+        "fuelConsumption": "13.0 L/100km",
+        "passengerCapacity": "4",
+        "climateControl": "Automatic",
+        "category": "HATCHBACK",
+        "mileageIncluded": "Unlimited",
+        "additionalFeatures": [
+            "Convertible roof",
+            "Premium audio",
+            "Backup camera"
+        ],
+        "color": "Blue",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-07-10T10:00:00",
+            "dropOffDateTime": "2024-07-15T10:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-07-09T22:00:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-07-09T22:00:00"
-  },
-  {
-    "carId": "3afc7e93-77d8-480b-a754-07891511bb25",
-    "carRating": "4.3",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/3afc7e93-77d8-480b-a754-07891511bb25-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/3afc7e93-77d8-480b-a754-07891511bb25-2.jpg"
-    ],
-    "location": "Canada, Toronto",
-    "pickupLocationId": "8bda2022-792c-4b67-b6b3-d1cfddc8f40a",
-    "dropOffLocationId": "8bda2022-792c-4b67-b6b3-d1cfddc8f40a",
-    "model": "Chevrolet Suburban 2021",
-    "pricePerDay": "200",
-    "serviceRating": "4.2",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "PETROL",
-    "engineCapacity": "5.3 V8",
-    "fuelConsumption": "14.4 L/100km",
-    "passengerCapacity": "8",
-    "climateControl": "Tri-Zone Climate",
-    "category": "CROSSOVER",
-    "mileageIncluded": "Unlimited",
-    "additionalFeatures": [
-      "DVD player",
-      "Blind-spot detection",
-      "Power tailgate"
-    ],
-    "color": "Black",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-06-01T12:00:00",
-      "dropOffDateTime": "2024-06-05T12:00:00"
+    {
+        "carId": "3afc7e93-77d8-480b-a754-07891511bb25",
+        "carRating": "4.3",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/3afc7e93-77d8-480b-a754-07891511bb25-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/3afc7e93-77d8-480b-a754-07891511bb25-2.jpg"
+        ],
+        "location": "Canada, Toronto",
+        "pickupLocationId": "8bda2022-792c-4b67-b6b3-d1cfddc8f40a",
+        "dropOffLocationId": "8bda2022-792c-4b67-b6b3-d1cfddc8f40a",
+        "model": "Chevrolet Suburban 2021",
+        "pricePerDay": "200",
+        "serviceRating": "4.2",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "PETROL",
+        "engineCapacity": "5.3 V8",
+        "fuelConsumption": "14.4 L/100km",
+        "passengerCapacity": "8",
+        "climateControl": "Tri-Zone Climate",
+        "category": "CROSSOVER",
+        "mileageIncluded": "Unlimited",
+        "additionalFeatures": [
+            "DVD player",
+            "Blind-spot detection",
+            "Power tailgate"
+        ],
+        "color": "Black",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-06-01T12:00:00",
+            "dropOffDateTime": "2024-06-05T12:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-05-31T23:30:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-05-31T23:30:00"
-  },
-  {
-    "carId": "97c4ef32-4b83-4823-95b9-8d30ba8715ad",
-    "carRating": "4.7",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/97c4ef32-4b83-4823-95b9-8d30ba8715ad-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/97c4ef32-4b83-4823-95b9-8d30ba8715ad-2.jpg"
-    ],
-    "location": "UK, London",
-    "pickupLocationId": "1d63cf9b-b27f-40e9-9e75-012d6c567a26",
-    "dropOffLocationId": "1d63cf9b-b27f-40e9-9e75-012d6c567a26",
-    "model": "Range Rover Evoque 2022",
-    "pricePerDay": "200",
-    "serviceRating": "4.6",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "PETROL",
-    "engineCapacity": "2.0 Turbo",
-    "fuelConsumption": "7.8 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Three-Zone Climate",
-    "category": "SUV",
-    "mileageIncluded": "250 km/day",
-    "additionalFeatures": [
-      "Panoramic sunroof",
-      "Automatic parking",
-      "Android Auto"
-    ],
-    "color": "White",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-07-01T10:00:00",
-      "dropOffDateTime": "2024-07-05T10:00:00"
+    {
+        "carId": "97c4ef32-4b83-4823-95b9-8d30ba8715ad",
+        "carRating": "4.7",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/97c4ef32-4b83-4823-95b9-8d30ba8715ad-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/97c4ef32-4b83-4823-95b9-8d30ba8715ad-2.jpg"
+        ],
+        "location": "UK, London",
+        "pickupLocationId": "1d63cf9b-b27f-40e9-9e75-012d6c567a26",
+        "dropOffLocationId": "1d63cf9b-b27f-40e9-9e75-012d6c567a26",
+        "model": "Range Rover Evoque 2022",
+        "pricePerDay": "200",
+        "serviceRating": "4.6",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "PETROL",
+        "engineCapacity": "2.0 Turbo",
+        "fuelConsumption": "7.8 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Three-Zone Climate",
+        "category": "SUV",
+        "mileageIncluded": "250 km/day",
+        "additionalFeatures": [
+            "Panoramic sunroof",
+            "Automatic parking",
+            "Android Auto"
+        ],
+        "color": "White",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-07-01T10:00:00",
+            "dropOffDateTime": "2024-07-05T10:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-06-30T18:00:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-06-30T18:00:00"
-  },
-  {
-    "carId": "65e4dffe-3b77-4a51-8c5c-0dc7df3358f3",
-    "carRating": "4.8",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/65e4dffe-3b77-4a51-8c5c-0dc7df3358f3-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/65e4dffe-3b77-4a51-8c5c-0dc7df3358f3-2.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/65e4dffe-3b77-4a51-8c5c-0dc7df3358f3-3.jpg"
-    ],
-    "location": "Australia, Sydney",
-    "pickupLocationId": "b7dfd82f-52d7-4d59-87fc-234c5b53f642",
-    "dropOffLocationId": "b7dfd82f-52d7-4d59-87fc-234c5b53f642",
-    "model": "BMW X6 2023",
-    "pricePerDay": "300",
-    "serviceRating": "4.9",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "DIESEL",
-    "engineCapacity": "3.0 Turbo",
-    "fuelConsumption": "9.5 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Four-Zone Climate",
-    "category": "CROSSOVER",
-    "mileageIncluded": "Unlimited",
-    "additionalFeatures": [
-      "Harman Kardon audio",
-      "Gesture control",
-      "Wireless charging"
-    ],
-    "color": "Black",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-09-01T08:00:00",
-      "dropOffDateTime": "2024-09-03T18:00:00"
+    {
+        "carId": "65e4dffe-3b77-4a51-8c5c-0dc7df3358f3",
+        "carRating": "4.8",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/65e4dffe-3b77-4a51-8c5c-0dc7df3358f3-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/65e4dffe-3b77-4a51-8c5c-0dc7df3358f3-2.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/65e4dffe-3b77-4a51-8c5c-0dc7df3358f3-3.jpg"
+        ],
+        "location": "Australia, Sydney",
+        "pickupLocationId": "b7dfd82f-52d7-4d59-87fc-234c5b53f642",
+        "dropOffLocationId": "b7dfd82f-52d7-4d59-87fc-234c5b53f642",
+        "model": "BMW X6 2023",
+        "pricePerDay": "300",
+        "serviceRating": "4.9",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "DIESEL",
+        "engineCapacity": "3.0 Turbo",
+        "fuelConsumption": "9.5 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Four-Zone Climate",
+        "category": "CROSSOVER",
+        "mileageIncluded": "Unlimited",
+        "additionalFeatures": [
+            "Harman Kardon audio",
+            "Gesture control",
+            "Wireless charging"
+        ],
+        "color": "Black",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-09-01T08:00:00",
+            "dropOffDateTime": "2024-09-03T18:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-08-31T22:00:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-08-31T22:00:00"
-  },
-  {
-    "carId": "56c4df22-1b8a-428f-87d5-1f94bcc35267",
-    "carRating": "4.4",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/56c4df22-1b8a-428f-87d5-1f94bcc35267-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/56c4df22-1b8a-428f-87d5-1f94bcc35267-2.jpg"
-    ],
-    "location": "India, Mumbai",
-    "pickupLocationId": "f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503",
-    "dropOffLocationId": "f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503",
-    "model": "Hyundai Creta 2023",
-    "pricePerDay": "75",
-    "serviceRating": "4.5",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "PETROL",
-    "engineCapacity": "1.6",
-    "fuelConsumption": "6.5 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Dual-Zone Climate",
-    "category": "SUV",
-    "mileageIncluded": "300 km/day",
-    "additionalFeatures": [
-      "Android Auto",
-      "Reverse Parking Camera"
-    ],
-    "color": "Silver",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-06-15T08:00:00",
-      "dropOffDateTime": "2024-06-20T18:00:00"
+    {
+        "carId": "56c4df22-1b8a-428f-87d5-1f94bcc35267",
+        "carRating": "4.4",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/56c4df22-1b8a-428f-87d5-1f94bcc35267-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/56c4df22-1b8a-428f-87d5-1f94bcc35267-2.jpg"
+        ],
+        "location": "India, Mumbai",
+        "pickupLocationId": "f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503",
+        "dropOffLocationId": "f18ac8f0-b4f5-4cdf-91c8-a05a44ab7503",
+        "model": "Hyundai Creta 2023",
+        "pricePerDay": "75",
+        "serviceRating": "4.5",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "PETROL",
+        "engineCapacity": "1.6",
+        "fuelConsumption": "6.5 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Dual-Zone Climate",
+        "category": "SUV",
+        "mileageIncluded": "300 km/day",
+        "additionalFeatures": [
+            "Android Auto",
+            "Reverse Parking Camera"
+        ],
+        "color": "Silver",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-06-15T08:00:00",
+            "dropOffDateTime": "2024-06-20T18:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-06-14T21:00:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-06-14T21:00:00"
-  },
-  {
-    "carId": "89a4e234-2ef8-4a2f-930e-5c94edf9bc54",
-    "carRating": "4.6",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/89a4e234-2ef8-4a2f-930e-5c94edf9bc54-1.jpg"
-    ],
-    "location": "Spain, Barcelona",
-    "pickupLocationId": "cfc3016d-32a9-47d7-8127-e52c94bd9f62",
-    "dropOffLocationId": "cfc3016d-32a9-47d7-8127-e52c94bd9f62",
-    "model": "Kia Sportage 2022",
-    "pricePerDay": "110",
-    "serviceRating": "4.3",
-    "status": "AVAILABLE",
-    "gearBoxType": "MANUAL",
-    "fuelType": "DIESEL",
-    "engineCapacity": "2.0 CRDi",
-    "fuelConsumption": "5.9 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Dual-Zone Climate",
-    "category": "SUV",
-    "mileageIncluded": "200 km/day",
-    "additionalFeatures": [
-      "Lane Departure Warning",
-      "Keyless Entry"
-    ],
-    "color": "Blue",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-08-01T09:00:00",
-      "dropOffDateTime": "2024-08-05T19:00:00"
+    {
+        "carId": "89a4e234-2ef8-4a2f-930e-5c94edf9bc54",
+        "carRating": "4.6",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/89a4e234-2ef8-4a2f-930e-5c94edf9bc54-1.jpg"
+        ],
+        "location": "Spain, Barcelona",
+        "pickupLocationId": "cfc3016d-32a9-47d7-8127-e52c94bd9f62",
+        "dropOffLocationId": "cfc3016d-32a9-47d7-8127-e52c94bd9f62",
+        "model": "Kia Sportage 2022",
+        "pricePerDay": "110",
+        "serviceRating": "4.3",
+        "status": "AVAILABLE",
+        "gearBoxType": "MANUAL",
+        "fuelType": "DIESEL",
+        "engineCapacity": "2.0 CRDi",
+        "fuelConsumption": "5.9 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Dual-Zone Climate",
+        "category": "SUV",
+        "mileageIncluded": "200 km/day",
+        "additionalFeatures": [
+            "Lane Departure Warning",
+            "Keyless Entry"
+        ],
+        "color": "Blue",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-08-01T09:00:00",
+            "dropOffDateTime": "2024-08-05T19:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-07-31T21:30:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-07-31T21:30:00"
-  },
-  {
-    "carId": "73c48f22-3afb-4d51-bb10-b897c483f593",
-    "carRating": "4.9",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/73c48f22-3afb-4d51-bb10-b897c483f593-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/73c48f22-3afb-4d51-bb10-b897c483f593-2.jpg"
-    ],
-    "location": "USA, New York",
-    "pickupLocationId": "d1e82c47-a7f3-490a-b758-f84b93df25a6",
-    "dropOffLocationId": "d1e82c47-a7f3-490a-b758-f84b93df25a6",
-    "model": "Cadillac Escalade 2021",
-    "pricePerDay": "320",
-    "serviceRating": "4.9",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "PETROL",
-    "engineCapacity": "6.2 V8",
-    "fuelConsumption": "15.0 L/100km",
-    "passengerCapacity": "7",
-    "climateControl": "Four-Zone Climate",
-    "category": "LUXURY SUV",
-    "mileageIncluded": "Unlimited",
-    "additionalFeatures": [
-      "Heated seats",
-      "Rear Entertainment System",
-      "Premium Audio"
-    ],
-    "color": "Black",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-12-01T10:00:00",
-      "dropOffDateTime": "2024-12-06T12:00:00"
+    {
+        "carId": "73c48f22-3afb-4d51-bb10-b897c483f593",
+        "carRating": "4.9",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/73c48f22-3afb-4d51-bb10-b897c483f593-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/73c48f22-3afb-4d51-bb10-b897c483f593-2.jpg"
+        ],
+        "location": "USA, New York",
+        "pickupLocationId": "d1e82c47-a7f3-490a-b758-f84b93df25a6",
+        "dropOffLocationId": "d1e82c47-a7f3-490a-b758-f84b93df25a6",
+        "model": "Cadillac Escalade 2021",
+        "pricePerDay": "320",
+        "serviceRating": "4.9",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "PETROL",
+        "engineCapacity": "6.2 V8",
+        "fuelConsumption": "15.0 L/100km",
+        "passengerCapacity": "7",
+        "climateControl": "Four-Zone Climate",
+        "category": "LUXURY SUV",
+        "mileageIncluded": "Unlimited",
+        "additionalFeatures": [
+            "Heated seats",
+            "Rear Entertainment System",
+            "Premium Audio"
+        ],
+        "color": "Black",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-12-01T10:00:00",
+            "dropOffDateTime": "2024-12-06T12:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-11-30T22:00:00"
     },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-11-30T22:00:00"
-  },
-  {
-    "carId": "41ae3f24-3c8d-45f9-9172-abc3e48d25ea",
-    "carRating": "5.0",
-    "images": [
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/41ae3f24-3c8d-45f9-9172-abc3e48d25ea-1.jpg",
-      "https://application.s3.eu-central-1.amazonaws.com/img/cars/41ae3f24-3c8d-45f9-9172-abc3e48d25ea-2.jpg"
-    ],
-    "location": "UAE, Dubai",
-    "pickupLocationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459",
-    "dropOffLocationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459",
-    "model": "Lamborghini Urus 2023",
-    "pricePerDay": "600",
-    "serviceRating": "4.9",
-    "status": "AVAILABLE",
-    "gearBoxType": "AUTOMATIC",
-    "fuelType": "PETROL",
-    "engineCapacity": "4.0 Twin Turbo V8",
-    "fuelConsumption": "12.3 L/100km",
-    "passengerCapacity": "5",
-    "climateControl": "Four-Zone Climate",
-    "category": "SPORTS SUV",
-    "mileageIncluded": "500 km/day",
-    "additionalFeatures": [
-      "Carbon fiber interior",
-      "Semi-autonomous driving",
-      "High-speed navigation"
-    ],
-    "color": "Yellow",
-    "availabilityByDates": {
-      "pickupDateTime": "2024-10-01T10:00:00",
-      "dropOffDateTime": "2024-10-04T14:00:00"
-    },
-    "insuranceIncluded": "Yes",
-    "bookingModificationAllowedUntil": "2024-09-30T22:00:00"
-  }
+    {
+        "carId": "41ae3f24-3c8d-45f9-9172-abc3e48d25ea",
+        "carRating": "5.0",
+        "images": [
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/41ae3f24-3c8d-45f9-9172-abc3e48d25ea-1.jpg",
+            "https://application.s3.eu-central-1.amazonaws.com/img/cars/41ae3f24-3c8d-45f9-9172-abc3e48d25ea-2.jpg"
+        ],
+        "location": "UAE, Dubai",
+        "pickupLocationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459",
+        "dropOffLocationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459",
+        "model": "Lamborghini Urus 2023",
+        "pricePerDay": "600",
+        "serviceRating": "4.9",
+        "status": "AVAILABLE",
+        "gearBoxType": "AUTOMATIC",
+        "fuelType": "PETROL",
+        "engineCapacity": "4.0 Twin Turbo V8",
+        "fuelConsumption": "12.3 L/100km",
+        "passengerCapacity": "5",
+        "climateControl": "Four-Zone Climate",
+        "category": "SPORTS SUV",
+        "mileageIncluded": "500 km/day",
+        "additionalFeatures": [
+            "Carbon fiber interior",
+            "Semi-autonomous driving",
+            "High-speed navigation"
+        ],
+        "color": "Yellow",
+        "availabilityByDates": {
+            "pickupDateTime": "2024-10-01T10:00:00",
+            "dropOffDateTime": "2024-10-04T14:00:00"
+        },
+        "insuranceIncluded": "Yes",
+        "bookingModificationAllowedUntil": "2024-09-30T22:00:00"
+    }
 ]
