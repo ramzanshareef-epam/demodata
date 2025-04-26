@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const { v4: uuidv4 } = require("uuid"); // UUID generation for unique IDs
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const BASE_PATH = "./data"; // Directory for storing JSON files
 
 app.use(cors());
@@ -171,6 +171,27 @@ app.get("/api/v1/home/locations", (req, res) => {
 // -----------------------------------
 // Car - US-5: Car selection (list cars)
 // -----------------------------------
+app.get("/api/v1/getAllCars", (req, res) => {
+    const cars = readData(CARS_FILE); // Load cars data from JSON file
+    const { page = 1, size = 10 } = req.body; // Extract pagination parameters
+
+    console.log(page, size);
+
+    // Pagination Logic
+    const totalElements = cars.length;
+    const totalPages = Math.ceil(totalElements / size);
+    const startIndex = (page - 1) * size; // Calculate start index
+    const paginatedCars = cars.slice(startIndex, startIndex + parseInt(size)); // Paginate results
+
+    return res.status(200).json({
+        content: paginatedCars,
+        currentPage: parseInt(page), // Current page number
+        totalElements,
+        totalPages,
+    });
+});
+
+
 app.get("/api/v1/cars", (req, res) => {
     const cars = readData(CARS_FILE); // Load cars data from JSON file
     let filteredCars = [...cars]; // Clone cars array to apply filters
@@ -240,39 +261,48 @@ app.get("/api/v1/cars", (req, res) => {
     });
 });
 
-app.get("/api/v1/cars/popular", (req, res) => {
-    const cars = readData(CARS_FILE); // Load cars data from JSON file
-    let filteredCars = [...cars]; // Clone cars array to apply filters
-    const {
-        category,
-        page = 1,  // Default page as 1
-        size = 10, // Default size as 10
-    } = req.query;
+app.post("/api/v1/cars/popular", (req, res) => {
+    try {
+        const cars = readData(CARS_FILE); // Load cars data from JSON file
+        const { category, page = 1, size = 10 } = req.body; // Extract filters and pagination parameters
 
-    if (category) {
-        filteredCars = filteredCars.filter((c) => c.category === category);
+        // Filter cars by category if provided
+        const filteredCars = category
+            ? cars.filter((car) => car.category === category)
+            : cars;
+
+        // Sort cars by rating in descending order
+        const sortedCars = filteredCars.sort((a, b) => b.carRating - a.carRating);
+
+        // Pagination logic
+        const totalElements = sortedCars.length;
+        const totalPages = Math.ceil(totalElements / size);
+        const startIndex = (page - 1) * size;
+        const paginatedCars = sortedCars.slice(startIndex, startIndex + parseInt(size));
+
+        // Map to include only required properties
+        const resultCars = paginatedCars.map((car) => ({
+            carId: car.carId,
+            carRating: car.carRating,
+            imageUrl: car.images?.[0],
+            location: car.location,
+            model: car.model,
+            pricePerDay: car.pricePerDay,
+            serviceRating: car.serviceRating,
+            status: car.status,
+        }));
+
+        // Send response with filtered, sorted, and paginated data
+        res.status(200).json({
+            content: resultCars,
+            currentPage: parseInt(page),
+            totalElements,
+            totalPages,
+        });
+    } catch (error) {
+        console.error("Error fetching popular cars:", error.message);
+        res.status(500).json({ error: "An error occurred while fetching popular cars." });
     }
-
-    // Pagination Logic
-    const totalElements = filteredCars.length;
-    const totalPages = Math.ceil(totalElements / size);
-    const startIndex = (page - 1) * size; // Calculate start index
-    const paginatedCars = filteredCars.slice(startIndex, startIndex + parseInt(size)); // Paginate results
-    console.log(paginatedCars);
-    const resultCars = paginatedCars.map((c) => ({
-        carId: c.carId,
-        carRating: c.carRating,
-        imageUrl: c.images[0],
-        location: c.location,
-        model: c.model,
-        pricePerDay: c.pricePerDay,
-        serviceRating: c.serviceRating,
-        status: c.status,
-    })).sort((a, b) => b.carRating - a.carRating);
-
-    res.status(200).json({
-        content: resultCars,
-    });
 });
 
 // -----------------------------------

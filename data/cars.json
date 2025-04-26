@@ -39,7 +39,7 @@
     {
         "carId": "01c87432-3383-4328-85f8-7d20ba871509",
         "carRating": "4.9",
-        "imageUrl": [
+        "images": [
             "https://application.s3.eu-central-1.amazonaws.com/img/cars/01c87432-3383-4328-85f8-7d20ba871509-1.jpg",
             "https://application.s3.eu-central-1.amazonaws.com/img/cars/01c87432-3383-4328-85f8-7d20ba871509-2.jpg"
         ],
