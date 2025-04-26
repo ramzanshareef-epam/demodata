@@ -267,9 +267,10 @@ app.post("/api/v1/cars/popular", (req, res) => {
         const { category, page = 1, size = 10 } = req.body; // Extract filters and pagination parameters
 
         // Filter cars by category if provided
-        const filteredCars = category
-            ? cars.filter((car) => car.category === category)
-            : cars;
+        const filteredCars = cars;
+        if (category) {
+            filteredCars = cars.filter((c) => c.category === category);
+        }
 
         // Sort cars by rating in descending order
         const sortedCars = filteredCars.sort((a, b) => b.carRating - a.carRating);
