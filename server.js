@@ -242,9 +242,9 @@ app.get("/api/v1/cars", (req, res) => {
 
     // Map to include only required properties
     const resultCars = paginatedCars.map((c) => ({
-        carId: c.carId,
+        carId: c?.carId,
         carRating: c.carRating,
-        imageUrl: c.images[0],
+        imageUrl: c.images?.[0],
         location: c.location,
         model: c.model,
         pricePerDay: c.pricePerDay,
