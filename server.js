@@ -240,6 +240,41 @@ app.get("/api/v1/cars", (req, res) => {
     });
 });
 
+app.get("/api/v1/cars/popular", (req, res) => {
+    const cars = readData(CARS_FILE); // Load cars data from JSON file
+    let filteredCars = [...cars]; // Clone cars array to apply filters
+    const {
+        category,
+        page = 1,  // Default page as 1
+        size = 10, // Default size as 10
+    } = req.query;
+
+    if (category) {
+        filteredCars = filteredCars.filter((c) => c.category === category);
+    }
+
+    // Pagination Logic
+    const totalElements = filteredCars.length;
+    const totalPages = Math.ceil(totalElements / size);
+    const startIndex = (page - 1) * size; // Calculate start index
+    const paginatedCars = filteredCars.slice(startIndex, startIndex + parseInt(size)); // Paginate results
+
+    const resultCars = paginatedCars.map((c) => ({
+        carId: c.carId,
+        carRating: c.carRating,
+        imageUrl: c.images[0],
+        location: c.location,
+        model: c.model,
+        pricePerDay: c.pricePerDay,
+        serviceRating: c.serviceRating,
+        status: c.status,
+    })).sort((a, b) => b.carRating - a.carRating);
+
+    res.status(200).json({
+        content: resultCars,
+    });
+});
+
 // -----------------------------------
 // Booking - US-6: Book a car
 // -----------------------------------
