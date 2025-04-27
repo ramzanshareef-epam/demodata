@@ -119,7 +119,6 @@ app.post("/api/v1/auth/sign-in", (req, res) => {
         role: user.role,
         userId: user.id,
         user: user,
-        username: `${user.firstName} ${user.lastName}`,
         userImageUrl: "https://example.com/avatar.png",
     });
 });
