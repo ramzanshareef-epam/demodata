@@ -6,6 +6,7 @@ const { v4: uuidv4 } = require("uuid"); // UUID generation for unique IDs
 const app = express();
 const PORT = process.env.PORT || 4000;
 const BASE_PATH = "./data"; // Directory for storing JSON files
+const date = require("./helpers/date");
 
 app.use(cors());
 app.use(express.json()); // Middleware to parse JSON requests
@@ -339,7 +340,7 @@ app.post("/api/v1/bookings", (req, res) => {
     writeData(BOOKINGS_FILE, bookings);
 
     return res.status(200).json({
-        message: `New booking was successfully created. \n${car.model} is booked from ${pickupDateTime} to ${dropOffDateTime}. \nYou can change booking details until 24 hours before the pickup time.\nYour order: #${booking.bookingId}`,
+        message: `New booking was successfully created. \n${car.model} is booked from ${date.formatDate(pickupDateTime)} to ${date.formatDate(dropOffDateTime)}. \nYou can change booking details until 24 hours before the pickup time.\nYour order: #${booking.bookingId}`,
     });
 });
 
