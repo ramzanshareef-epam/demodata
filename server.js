@@ -338,9 +338,10 @@ app.post("/api/v1/bookings", (req, res) => {
 
     bookings.push(booking);
     writeData(BOOKINGS_FILE, bookings);
+    let message = `${car.model} is booked from ${date.formatDate(new Date(pickupDateTime))} to ${date.formatDate(new Date(dropOffDateTime))}. \nYou can change booking details until 24 hours before the pickup time.\nYour order: #${booking.bookingId.slice(0, 8)}`
 
     return res.status(200).json({
-        message: `New booking was successfully created. \n${car.model} is booked from ${date.formatDate(pickupDateTime)} to ${date.formatDate(dropOffDateTime)}. \nYou can change booking details until 24 hours before the pickup time.\nYour order: #${booking.bookingId}`,
+        message
     });
 });
 
