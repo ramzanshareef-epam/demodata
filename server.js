@@ -115,11 +115,9 @@ app.post("/api/v1/auth/sign-in", (req, res) => {
 
     const token = `token-${user.id}`;
     return res.status(200).json({
-        idToken: token,
-        role: user.role,
-        userId: user.id,
+        // accessToke: "",
+        // refreshToken: "",
         user: user,
-        userImageUrl: "https://example.com/avatar.png",
     });
 });
 
