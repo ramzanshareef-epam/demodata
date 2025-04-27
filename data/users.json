@@ -158,5 +158,29 @@
         "lastName": "Edwards",
         "password": "GraceSecure&22",
         "role": "Client"
+    },
+    {
+        "id": "ff5b87f4-493f-4c1e-8b42-b93d4d02bbd0",
+        "email": "support_agent_1@example.com",
+        "firstName": "John",
+        "lastName": "Doe",
+        "password": "support@1234",
+        "role": "Support"
+    },
+    {
+        "id": "cf7a8e5f-9034-4ef7-89f6-c4f4151e7f72",
+        "email": "support_agent_2@example.com",
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "password": "alice@1234",
+        "role": "Support"
+    },
+    {
+        "id": "f4bc9a8b-3b4f-44f1-b019-38f0d9c8f89f",
+        "email": "support_agent_3@example.com",
+        "firstName": "Bob",
+        "lastName": "Johnson",
+        "password": "bob@1234",
+        "role": "Support"
     }
 ]
