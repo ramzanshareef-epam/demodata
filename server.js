@@ -307,8 +307,23 @@ app.post("/api/v1/bookings", (req, res) => {
     const cars = readData(CARS_FILE);
     const bookings = readData(BOOKINGS_FILE);
 
-    const car = cars.filter((c) => c.id === carId);
+    const car = cars.find((c) => c.carId === carId);
     if (!car) return res.status(404).json({ error: "Car not found." });
+
+    // Check for existing booking conflicts
+    const existingBooking = bookings.find(
+        (b) =>
+            b.carId === carId &&
+            ((new Date(pickupDateTime) >= new Date(b.pickupDateTime) && new Date(pickupDateTime) <= new Date(b.dropOffDateTime)) ||
+                (new Date(dropOffDateTime) >= new Date(b.pickupDateTime) && new Date(dropOffDateTime) <= new Date(b.dropOffDateTime)))
+    );
+
+    if (existingBooking) {
+        return res.status(400).json({
+            message: `The car is already booked from ${existingBooking.pickupDateTime} to ${existingBooking.dropOffDateTime}. Please choose a different time.`,
+        });
+    }
+
     const booking = {
         bookingId: uuidv4(),
         carId,
