@@ -339,7 +339,7 @@ app.post("/api/v1/bookings", (req, res) => {
     writeData(BOOKINGS_FILE, bookings);
 
     return res.status(200).json({
-        message: "New booking was successfully created. \nAudi A6 Quattro 2023 is booked for Nov 11 - Nov 16 \nYou can change booking details until 10:30 PM 10 Nov.\nYour order: #2437 (08.06.24) ",
+        message: `New booking was successfully created. \n${car.model} is booked from ${pickupDateTime} to ${dropOffDateTime}. \nYou can change booking details until 24 hours before the pickup time.\nYour order: #${booking.bookingId}`,
     });
 });
 
