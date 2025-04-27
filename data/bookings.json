@@ -120,21 +120,12 @@
     "dropOffLocationId": "b7d948c2-e61d-4b9e-ab8d-a4fc05de7459"
   },
   {
-    "id": "6205e580-db23-40b3-9293-ab10795f7f50",
-    "carId": "92c87432-3383-4328-85f8-7d20ba8715ec",
-    "clientId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "bookingId": "3e3e6095-7693-4829-aaa9-db4129f639a2",
+    "carId": "73c48f22-3afb-4d51-bb10-b897c483f593",
+    "clientId": "3a8d9c3a-ea81-4c9b-b9d5-5ec39a5a3d75",
     "bookingStatus": "RESERVED",
-    "pickupDateTime": "2024-06-08 10:00",
-    "dropOffDateTime": "2024-06-10 10:00",
-    "pickupLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
-    "dropOffLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e"
-  },
-  {
-    "id": "459ec507-c8d5-4ca7-8971-1d6b1e362e15",
-    "carId": "92c87432-3383-4328-85f8-7d20ba8715ec",
-    "clientId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "pickupDateTime": "2024-06-08 10:00",
-    "dropOffDateTime": "2024-06-10 10:00",
+    "pickupDateTime": "2025-04-27 14:00",
+    "dropOffDateTime": "2025-04-29 14:00",
     "pickupLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e",
     "dropOffLocationId": "9b903ebf-2b18-4946-bc58-045d86a2632e"
   }

@@ -308,12 +308,12 @@ app.post("/api/v1/bookings", (req, res) => {
     const bookings = readData(BOOKINGS_FILE);
 
     const car = cars.filter((c) => c.id === carId);
-    console.log(cars)
     if (!car) return res.status(404).json({ error: "Car not found." });
     const booking = {
-        id: uuidv4(),
+        bookingId: uuidv4(),
         carId,
         clientId,
+        bookingStatus: "RESERVED",
         pickupDateTime,
         dropOffDateTime,
         pickupLocationId,
@@ -324,8 +324,24 @@ app.post("/api/v1/bookings", (req, res) => {
     writeData(BOOKINGS_FILE, bookings);
 
     return res.status(200).json({
-        message: `Car booked successfully. Booking ID: ${booking.id}`,
+        message: "New booking was successfully created. \nAudi A6 Quattro 2023 is booked for Nov 11 - Nov 16 \nYou can change booking details until 10:30 PM 10 Nov.\nYour order: #2437 (08.06.24) ",
     });
+});
+
+
+// -----------------------------------
+// Booking - Get all bookings
+// -----------------------------------
+app.get("/api/v1/bookings", (req, res) => {
+    try {
+        const bookings = readData(BOOKINGS_FILE); // Load bookings data from JSON file
+        return res.status(200).json({
+            content: bookings,
+        });
+    } catch (error) {
+        console.error("Error fetching bookings:", error.message);
+        return res.status(500).json({ error: "An error occurred while fetching bookings." });
+    }
 });
 
 // -----------------------------------
