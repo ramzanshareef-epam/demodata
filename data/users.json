@@ -60,7 +60,7 @@
         "email": "robert_williams@example.com",
         "firstName": "Robert",
         "lastName": "Williams",
-        "password": "password!112233",
+        "password": "PASFsword!112233",
         "role": "Admin"
     },
     {
@@ -164,7 +164,7 @@
         "email": "support_agent_1@example.com",
         "firstName": "John",
         "lastName": "Doe",
-        "password": "support@1234",
+        "password": "Support@1234",
         "role": "Support"
     },
     {
@@ -172,7 +172,7 @@
         "email": "support_agent_2@example.com",
         "firstName": "Alice",
         "lastName": "Smith",
-        "password": "alice@1234",
+        "password": "Alice@1234",
         "role": "Support"
     },
     {
@@ -180,7 +180,7 @@
         "email": "support_agent_3@example.com",
         "firstName": "Bob",
         "lastName": "Johnson",
-        "password": "bob@1234",
+        "password": "bBob@1234",
         "role": "Support"
     }
 ]
